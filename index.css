@@ -1,0 +1,131 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.bgContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.heading {
+  font-size: 48px;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+    font-weight: 900;
+  }
+}
+.new-box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .new-box-container {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .box {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 10px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .box {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+.boxName {
+  font-size: 12px;
+  font-family: "Bree Serif";
+  color: white;
+  text-align: center;
+}
+.box-1 {
+  background-color: #fbbf24;
+  height: 80px;
+  width: 80px;
+  margin-top: 24px;
+}
+@media screen and (min-width: 768px) {
+  .box-1 {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .box-1 {
+    height: 120px;
+    width: 120px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .box-1 {
+    height: 140px;
+    width: 140px;
+  }
+}
+
+.box-2 {
+  background-color: #38bdf8;
+  height: 150px;
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .box-2 {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .box-2 {
+    height: 250px;
+    width: 250px;
+  }
+}
+.box-3 {
+  background-color: #ec4899;
+  height: 270px;
+  width: 270px;
+}
+@media screen and (min-width: 768px) {
+  .box-3 {
+    height: 350px;
+    width: 350px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .box-3 {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .box-1 {
+    height: 450px;
+    width: 450px;
+  }
+}
